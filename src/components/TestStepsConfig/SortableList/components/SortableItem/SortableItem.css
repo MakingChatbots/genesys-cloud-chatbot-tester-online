@@ -1,0 +1,35 @@
+.DragHandle {
+    touch-action: none;
+    border: none;
+}
+
+.DragHandle:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+    /*border: none;*/
+}
+
+.DragHandle:focus-visible {
+    box-shadow: 0 0 0 2px #4c9ffe;
+    /*border: none;*/
+}
+
+#test-step-default button {
+    border: none;
+}
+
+#test-steps-list button {
+    border: none;
+}
+
+.DragHandle .bi {
+    color: #919eab;
+    border: none;
+}
+
+.draggable {
+    cursor: grab !important;
+}
+
+.draggable:active {
+    cursor: grabbing !important;
+}
