@@ -21,7 +21,7 @@ concurrency:
   cancel-in-progress: true
 
 env:
-  VITE_BASE_URL: genesys-chatbot-tester.makingchatbots.com
+  VITE_BASE_URL: https://genesys-chatbot-tester.makingchatbots.com
 
 jobs:
   # Single deploy job since we're just deploying
