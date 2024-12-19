@@ -4,10 +4,14 @@
   "version": "0.0.0",
   "type": "module",
   "homepage": "https://genesys-chatbot-tester.makingchatbots.com",
+  "author": {
+    "name": "Lucas Woodward",
+    "url": "https://makingchatbots.com/"
+  },
   "scripts": {
     "dev": "vite",
     "test": "vitest",
-    "build": "tsc && vite build",
+    "build": "tsc && vite build && cp faq.html dist/faq.html",
     "preview": "vite preview",
     "cypress:open": "cypress open",
     "cypress:run": "cypress run --component"
