@@ -11,7 +11,7 @@
   "scripts": {
     "dev": "vite",
     "test": "vitest",
-    "build": "tsc && vite build && cp faq.html dist/faq.html",
+    "build": "tsc && vite build && cp about.html dist/about.html",
     "preview": "vite preview",
     "cypress:open": "cypress open",
     "cypress:run": "cypress run --component"
