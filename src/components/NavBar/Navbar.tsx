@@ -27,7 +27,7 @@ export function Navbar({logsButton, onShareTestClicked}: Props) {
                     >
                         Share Test
                     </button>
-                    <a className="btn btn-light" href="/faq.html" role="button">FAQ</a>
+                    <a className="btn btn-light" href="/about.html" role="button">About</a>
                     <button
                         type="button"
                         data-bs-toggle={logsButton.dataBsToggle}
